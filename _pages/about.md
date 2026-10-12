@@ -7,19 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am Bo Yang from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in Beijing, China.
+Hi, I am **Bo Yang (杨博)**. I am currently a Ph.D. student at the **School of Biomedical Engineering, Tsinghua University (THU)**, under the supervision of Prof. Zhou Li. I received both my bachelor's and master's degrees from the Department of Mechanical Engineering at Tsinghua University, where I conducted my master's research under the supervision of Prof. Jia Cheng.
 
-<!-- Add your position, department and a longer biography here when ready. -->
+My research focuses on **wearable sensing, intelligent motion understanding, and human–machine interaction**, as well as their applications in rehabilitation and healthcare. By integrating flexible sensing technologies, multimodal signal processing, and machine learning, I aim to develop intelligent systems that can reliably sense and interpret human motion while enabling natural and intuitive human–machine interaction.
 
 ## Research Interests
 
-<!-- Describe your research topics and current work here. -->
-Research interests will be added here.
+1. **Wearable and Multimodal Sensing**
+2. **Intelligent Motion Understanding**
+3. **Human–Machine Interaction and Haptic Feedback**
 
 ## Education
 
-<!-- Example format: YYYY–YYYY, Degree in Field, University. -->
-Education details will be added here.
+- **2026.08 – Present:** Ph.D. Student in Biomedical Engineering, Tsinghua University
+- **2023.08 – 2026.06:** M.S. in Mechanical Engineering, Tsinghua University
+- **2019.08 – 2023.06:** B.Eng. in Mechanical Engineering, Tsinghua University
 
 ## Honors and Awards
 
