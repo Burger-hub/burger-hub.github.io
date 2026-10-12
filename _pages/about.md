@@ -23,7 +23,7 @@ My research focuses on **wearable sensing, intelligent motion understanding, and
 - **2023.08 – 2026.06:** M.S. in Mechanical Engineering, Tsinghua University
 - **2019.08 – 2023.06:** B.Eng. in Mechanical Engineering, Tsinghua University
 
-## Honors and Awards
+## Honors&Awards
 
 - **2026.08** — Future Scholar Scholarship, Tsinghua University (未来学者奖学金)
 - **2026.07** — Merit Student, Tsinghua University (清华大学三好学生)
