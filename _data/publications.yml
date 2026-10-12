@@ -14,7 +14,7 @@
   status: "Under review"
   type: "Manuscript"
   corresponding_authors: ["Zhou Li", "Jia Cheng"]
-  description: "This work introduces EdgeLLM-Glove, a wearable sign-to-text system that decouples motion perception from language reconstruction. Adaptive segmentation and a lightweight recognition model convert triboelectric–inertial signals into gloss sequences, while a compact local language model reconstructs sentences. In controlled trials using a 50-gloss Chinese Sign Language vocabulary, the fully local pipeline achieved a mean post-action processing latency of 354 ms."
+  description: "This work presents EdgeLLM-Glove, a wearable sign-to-text system based on a decoupled perception–cognition architecture. By integrating adaptive segmentation, lightweight gloss recognition, and local language reconstruction, the system enables real-time decoding and text conversion of continuous sign language signals without cloud processing, as demonstrated in end-to-end evaluations."
 
 - title: "Bidirectional Haptic Feedback for Prostheses via Flexible Sensing and Transcutaneous Electrical Stimulation"
   authors:
