@@ -1,5 +1,21 @@
-# Listed newest first. Display dates follow the publication months supplied by Bo Yang.
-# Author names and DOI metadata checked against Crossref on 2026-10-12.
+# Manuscripts under review appear first, followed by published articles newest first.
+# Under-review manuscript metadata supplied by Bo Yang; published DOI metadata checked against Crossref on 2026-10-12.
+- title: "EdgeLLM-Glove: A Decoupled Perception–Cognition Framework for Continuous Sign-to-Text Interaction via Wearable Sensing"
+  authors:
+    - "Bo Yang"
+    - "Wenhua Bai"
+    - "Tiefeng Cheng"
+    - "Ruofei Liu"
+    - "Xuecheng Qu"
+    - "Junyao Shen"
+    - "Linhong Ji"
+    - "Zhou Li"
+    - "Jia Cheng"
+  status: "Under review"
+  type: "Manuscript"
+  corresponding_authors: ["Zhou Li", "Jia Cheng"]
+  description: "This work introduces EdgeLLM-Glove, a wearable sign-to-text system that decouples motion perception from language reconstruction. Adaptive segmentation and a lightweight recognition model convert triboelectric–inertial signals into gloss sequences, while a compact local language model reconstructs sentences. In controlled trials using a 50-gloss Chinese Sign Language vocabulary, the fully local pipeline achieved a mean post-action processing latency of 354 ms."
+
 - title: "Bidirectional Haptic Feedback for Prostheses via Flexible Sensing and Transcutaneous Electrical Stimulation"
   authors:
     - "Haohan Zhao"
