@@ -22,11 +22,13 @@
   display_date: "Jul. 2026"
   type: "Journal article"
   doi: "10.1002/adfm.76572"
+  equal_contributors: ["Haohan Zhao", "Xuecheng Qu", "Bo Yang"]
+  corresponding_authors: ["Xuecheng Qu", "Yunxu Shi", "Jia Cheng"]
   pdf: "/files/publications/bidirectional-haptic-feedback.pdf"
   image: "/images/publications/bidirectional-haptic-feedback-overview.webp"
   image_alt: "Overview of the bidirectional haptic feedback system, tactile sensing glove, electrical stimulation armband, force sensing and texture recognition."
   image_width: 2050
-  image_height: 2215
+  image_height: 1608
   description: "This work combines flexible triboelectric tactile sensing with multichannel electrical stimulation to provide closed-loop feedback for prosthetic hands. In simulated prosthetic-hand experiments without visual or auditory cues, participants used the feedback to regulate grip force, maintain stable grasping, and distinguish surface textures."
 
 - title: "A visual-tactile synchronized stimulation ring system for sensory rehabilitation integrating triboelectric sensing and pneumatic feedback"
@@ -46,11 +48,13 @@
   display_date: "2025"
   type: "Journal article"
   doi: "10.1016/j.nanoen.2024.110638"
+  equal_contributors: ["Bo Yang", "Lifa Yang"]
+  corresponding_authors: ["Chong Li", "Wei Li", "Xuecheng Qu", "Jia Cheng"]
   pdf: "/files/publications/sensory-rehabilitation-ring.pdf"
   image: "/images/publications/sensory-rehabilitation-ring-overview.webp"
   image_alt: "Overview of the TSPF-Ring, synchronized visual and tactile feedback, tactile sensing, pneumatic actuation and ring fabrication."
-  image_width: 1900
-  image_height: 2368
+  image_width: 1897
+  image_height: 1726
   description: "This work introduces a wearable ring that integrates triboelectric sensing and pneumatic feedback for synchronized visual-tactile rehabilitation training. The system detects pressure, proximity, and texture, while EEG experiments show increased sensorimotor-cortex activation during synchronized stimulation."
 
 - title: "Triboelectric‐Inertial Sensing Glove Enhanced by Charge‐Retained Strategy for Human‐Machine Interaction"
@@ -67,6 +71,8 @@
   display_date: "Jan. 2025"
   type: "Journal article"
   doi: "10.1002/advs.202408689"
+  equal_contributors: ["Bo Yang", "Jia Cheng", "Xuecheng Qu"]
+  corresponding_authors: ["Jia Cheng"]
   pdf: "/files/publications/triboelectric-inertial-glove.pdf"
   image: "/images/publications/triboelectric-inertial-glove-overview.webp"
   image_alt: "Overview of the TI-Glove, continuous finger-bending sensing, inertial hand-orientation sensing, charge-retained circuit and interaction applications."

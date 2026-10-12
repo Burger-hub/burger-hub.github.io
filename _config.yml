@@ -26,9 +26,9 @@ author:
   avatar           : "bo-yang.jpg"
   name             : "Bo Yang"
   pronouns         : # example: "she/her"  
-  bio              : ""
+  bio              : "Ph.D. candidate at Tsinghua University"
   location         : "Beijing, China"
-  employer         : "Tsinghua University"
+  employer         :
   uri              : # URL
   email            : "yang-b26@mails.tsinghua.edu.cn"
 
@@ -43,7 +43,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           :
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Bo-Yang-297"
   scopus           : # URL
   zotero           : # URL
 

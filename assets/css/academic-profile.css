@@ -18,7 +18,7 @@
   margin: 0 0 0.85rem;
   padding: 0;
   border: 0;
-  font-size: 1em;
+  font-size: 1.125em;
   line-height: 1.55;
   font-weight: 700;
   color: #b75a1d;
@@ -38,7 +38,7 @@
 .publication-details {
   margin: 0;
   padding-left: 1.3em;
-  font-size: 0.85em;
+  font-size: 1em;
   line-height: 1.75;
 }
 
@@ -51,19 +51,23 @@
 }
 
 .publication-overview {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin: 1.1rem 0;
   text-align: center;
 }
 
 .publication-overview a {
-  display: inline-block;
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  max-width: 560px;
 }
 
 .publication-image {
   display: block;
   width: 100%;
-  max-width: 560px;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
   background: #fff;
@@ -74,6 +78,15 @@
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
+}
+
+.publication-author-legend {
+  margin: 0.75rem 0 1.5rem;
+  font-size: 1em;
+}
+
+.publication-author-mark {
+  white-space: nowrap;
 }
 
 .author__urls .profile-link-placeholder {

@@ -27,6 +27,9 @@ Google Scholar is displayed as a disabled placeholder while its URL is blank.
 Set `author.googlescholar` to your profile URL to enable the link, or set
 `author.googlescholar_show: false` to hide the placeholder.
 ORCID, PubMed, GitHub and Bluesky are currently hidden.
+ResearchGate is linked from the sidebar. The affiliation is displayed as
+`Ph.D. candidate at Tsinghua University` below the name; the separate employer
+row is hidden.
 To keep an optional field hidden, leave its YAML value empty (null),
 such as `github:`, rather than using a quoted empty string.
 
@@ -52,6 +55,8 @@ highlights Bo Yang in the author list. Replace these example values:
   display_date: "Jul. 2026"
   type: "Journal article"
   doi: "10.xxxx/REPLACE"
+  equal_contributors: ["Bo Yang", "Other Author"]
+  corresponding_authors: ["Other Author"]
   pdf: "/files/publications/paper.pdf"
   image: "/images/publications/paper-overview.webp"
   image_alt: "Description of the paper's system overview"
@@ -65,6 +70,8 @@ Upload the corresponding PDF and overview image to the paths above.
 The page shows each title with Publication and PDF links, followed by the
 overview image and three information rows: authors, venue/date and summary.
 DOI values are kept as data for the Publication links and are not printed.
+Use exact author names in `equal_contributors` and `corresponding_authors`
+to display the co-first-author dagger and corresponding-author asterisk.
 See `files/publications/README.md` for the archived article versions and
 figure extraction details.
 The homepage name in the header links back to About Me; only Publications
