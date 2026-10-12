@@ -23,13 +23,6 @@ author_profile: true
       <span class="publication-links">[<a href="{{ paper.code | escape }}" aria-label="Code: {{ paper.title | escape }}">Code</a>]</span>
       {% endif %}
     </h2>
-    {% if paper.image %}
-    <figure class="publication-overview">
-      <a href="{{ paper.image | relative_url }}?v={{ site.time | date: '%s' }}" aria-label="Full-size overview: {{ paper.title | escape }}">
-        <img class="publication-image" src="{{ paper.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="{{ paper.image_alt | default: paper.title | escape }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy">
-      </a>
-    </figure>
-    {% endif %}
     <ul class="publication-details">
       {% if paper.authors %}
       <li class="publication-authors">{% for author in paper.authors %}{% if author == site.author.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% if paper.equal_contributors contains author or paper.corresponding_authors contains author %}<sup class="publication-author-mark">{% if paper.equal_contributors contains author %}<span title="Co-first author">#</span>{% endif %}{% if paper.equal_contributors contains author and paper.corresponding_authors contains author %},{% endif %}{% if paper.corresponding_authors contains author %}<span title="Corresponding author">*</span>{% endif %}</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
@@ -37,6 +30,13 @@ author_profile: true
       <li class="publication-venue">{% if paper.status %}<strong><em>{{ paper.status | escape }}</em></strong>.{% else %}Published in <strong><em>{{ paper.venue | escape }}</em></strong>, {{ paper.display_date | escape }}.{% endif %}</li>
       {% if paper.description %}<li class="publication-summary">{{ paper.description | escape }}</li>{% endif %}
     </ul>
+    {% if paper.image %}
+    <figure class="publication-overview">
+      <a href="{{ paper.image | relative_url }}?v={{ site.time | date: '%s' }}" aria-label="Full-size overview: {{ paper.title | escape }}">
+        <img class="publication-image" src="{{ paper.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="{{ paper.image_alt | default: paper.title | escape }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy">
+      </a>
+    </figure>
+    {% endif %}
   </article>
   {% endfor %}
 </div>
