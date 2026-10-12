@@ -36,7 +36,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=SZslhP8AAAAJ&view_op=list_works&gmla=AERr9JEzX0OqR0qsk6dEfPLPyhRYhQA5gHHCyWcaIBx5hHG6NE5plZzodbhIREaWCop3iRlsVs-AXCQ97lIVhFcA"
   googlescholar_show: true # Display a placeholder until a profile URL is available.
   inspire-hep      : # URL
   impactstory      : # URL
