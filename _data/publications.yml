@@ -95,4 +95,4 @@
   image_alt: "Overview of the TI-Glove, continuous finger-bending sensing, inertial hand-orientation sensing, charge-retained circuit and interaction applications."
   image_width: 2050
   image_height: 1895
-  description: "This work introduces a charge-retained sensing circuit that captures continuous finger movements and combines the signals with inertial sensing in a smart glove. The system supports robotic control, virtual-reality interaction, and sign-language recognition."
+  description: "This work introduces a charge-retained sensing circuit that captures continuous finger movements from triboelectric signals and combines the signals with inertial sensing in a smart glove. The system supports robotic control, virtual-reality interaction, and sign-language recognition."
