@@ -10,9 +10,9 @@ make changes, then choose **Commit changes** on the master branch.
 | Information | File |
 | --- | --- |
 | Name, title, affiliation, email, photo and profile links | `_config.yml` |
-| Biography, research interests and education | `_pages/about.md` |
+| Biography, research interests, education and honors | `_pages/about.md` |
 | Navigation links | `_data/navigation.yml` |
-| Publication entries | One Markdown file per paper in `_publications/` |
+| Publication entries | `_data/publications.yml` (newest first) |
 | Photos and figures | `images/` |
 | CV and paper PDFs | `files/` |
 
@@ -22,7 +22,9 @@ In `_config.yml`, set the top-level `title`, `name` and `description`.
 Under `author`, fill in `name`, `bio`, `employer`, `location`, `email`
 and any relevant academic profiles. Blank optional fields stay hidden.
 Upload a photo to `images/` and set `author.avatar` to its filename, such as
-`portrait.jpg`. The GitHub account is already set to Burger-hub.
+`portrait.jpg`. Google Scholar, ORCID, PubMed, GitHub and Bluesky are currently
+hidden. To keep an optional field hidden, leave its YAML value empty (null),
+such as `github:`, rather than using a quoted empty string.
 
 Keep these hosting settings:
 ```yaml
@@ -33,26 +35,26 @@ repository: Burger-hub/burger-hub.github.io
 
 ### Add a publication
 
-Create a file such as `_publications/YYYY-MM-DD-short-title.md`.
-Replace the placeholders below with the paper's real information:
+Add a new entry at the top of `_data/publications.yml`. The Publications page
+renders the list automatically, numbers papers from newest to oldest and
+highlights Bo Yang in the author list. Replace these example values:
 
-```markdown
----
-title: "Paper title"
-collection: publications
-category: manuscripts
-permalink: /publications/short-title/
-date: YYYY-MM-DD
-venue: "Journal or conference name"
-paperurl: "https://doi.org/REPLACE"
-citation: "Authors. Paper title. Venue, year."
----
-
-A short description of the paper.
+```yaml
+- title: "Paper title"
+  authors:
+    - "Bo Yang"
+    - "Other Author"
+  venue: "Journal or conference name"
+  display_date: "Jul. 2026"
+  type: "Journal article"
+  doi: "10.xxxx/REPLACE"
 ```
 
-Use `category: conferences` for conference papers.
-The Publications page lists entries automatically.
+Use the publication date precision you want readers to see in `display_date`.
+If desired, add `description` for a short summary, or `image` and `image_alt`
+for a figure you can share (for example `image: /images/paper-figure.png`).
+The homepage name in the header links back to About Me; only Publications
+appears as a separate navigation tab.
 
 ### Add a CV later
 

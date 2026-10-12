@@ -1,0 +1,72 @@
+/* Publication list inspired by the typography and hierarchy of the reference. */
+.publication-list {
+  margin-top: 1.8rem;
+}
+
+.publication-entry {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.publication-entry:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.archive .publication-title {
+  margin: 0 0 0.85rem;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  line-height: 1.55;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.publication-number {
+  margin-right: 0.2em;
+}
+
+.publication-links {
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.publication-details {
+  margin: 0;
+  padding-left: 1.3em;
+  font-size: 0.85em;
+  line-height: 1.75;
+}
+
+.publication-details li {
+  margin-bottom: 0.3em;
+}
+
+.publication-type {
+  color: var(--global-text-color);
+}
+
+.publication-doi {
+  overflow-wrap: anywhere;
+}
+
+.publication-image {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.page__content h2 {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .publication-entry {
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+  }
+}

@@ -1,6 +1,4 @@
 # Main navigation. Add CV or other pages when their content is ready.
 main:
-  - title: "About Me"
-    url: /
   - title: "Publications"
     url: /publications/
