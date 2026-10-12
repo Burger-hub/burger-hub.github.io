@@ -4,8 +4,8 @@
 }
 
 .publication-entry {
-  margin-bottom: 2.5rem;
-  padding-bottom: 1.7rem;
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.2rem;
   border-bottom: 1px solid var(--global-border-color);
 }
 
@@ -106,7 +106,7 @@ html[data-theme="dark"] .archive .publication-title {
 
 @media (max-width: 600px) {
   .publication-entry {
-    margin-bottom: 1.75rem;
-    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.9rem;
   }
 }

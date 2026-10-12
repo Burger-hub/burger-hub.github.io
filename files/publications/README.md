@@ -15,7 +15,7 @@ with the author's updated overview images. Click a figure to view its full size.
 
 ## Author contribution markers
 
-The publication list uses `†` for co-first authors and `*` for corresponding
+The publication list uses `#` for co-first authors and `*` for corresponding
 authors, based on the archived PDFs:
 
 - Glove paper: Bo Yang, Jia Cheng and Xuecheng Qu contributed equally (Author
