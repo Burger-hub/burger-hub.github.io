@@ -31,7 +31,7 @@
   image_height: 1608
   description: "This work combines flexible triboelectric tactile sensing with multichannel electrical stimulation to provide closed-loop feedback for prosthetic hands. In simulated prosthetic-hand experiments without visual or auditory cues, participants used the feedback to regulate grip force, maintain stable grasping, and distinguish surface textures."
 
-- title: "A visual-tactile synchronized stimulation ring system for sensory rehabilitation integrating triboelectric sensing and pneumatic feedback"
+- title: "A Visual-Tactile Synchronized Stimulation Ring System for Sensory Rehabilitation Integrating Triboelectric Sensing and Pneumatic Feedback"
   authors:
     - "Bo Yang"
     - "Lifa Yang"
