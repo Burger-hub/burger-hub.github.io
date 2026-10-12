@@ -19,6 +19,9 @@ author_profile: true
       {% if paper.pdf %}
       <span class="publication-links">[<a href="{{ paper.pdf | relative_url }}" aria-label="Archived PDF: {{ paper.title | escape }}">PDF</a>]</span>
       {% endif %}
+      {% if paper.code %}
+      <span class="publication-links">[<a href="{{ paper.code | escape }}" aria-label="Code: {{ paper.title | escape }}">Code</a>]</span>
+      {% endif %}
     </h2>
     {% if paper.image %}
     <figure class="publication-overview">

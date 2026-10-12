@@ -25,9 +25,9 @@ My research focuses on **wearable sensing, intelligent motion understanding, and
 
 ## Honors and Awards
 
-- **2026.08** — Future Scholar Scholarship, Tsinghua University
-- **2026.07** — Merit Student, Tsinghua University
-- **2026.06** — Outstanding Master's Thesis, Tsinghua University
-- **2026.06** — Outstanding Graduate of Beijing
-- **2026.06** — Outstanding Graduate, Tsinghua University
-- **2025.12** — Comprehensive Excellence Scholarship (First Class), Tsinghua University
+- **2026.08** — Future Scholar Scholarship, Tsinghua University (未来学者奖学金)
+- **2026.07** — Merit Student, Tsinghua University (清华大学三好学生)
+- **2026.06** — Outstanding Master's Thesis, Tsinghua University (优秀硕士学位论文)
+- **2026.06** — Outstanding Graduate of Beijing (北京市优秀毕业生)
+- **2026.06** — Outstanding Graduate, Tsinghua University (清华大学优秀毕业生)
+- **2025.12** — Comprehensive Excellence Scholarship (First Class), Tsinghua University (综合优秀一等奖学金)

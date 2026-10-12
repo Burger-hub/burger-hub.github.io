@@ -74,6 +74,7 @@
   equal_contributors: ["Bo Yang", "Jia Cheng", "Xuecheng Qu"]
   corresponding_authors: ["Jia Cheng"]
   pdf: "/files/publications/triboelectric-inertial-glove.pdf"
+  code: "https://github.com/Burger-hub/TI-Glove-System"
   image: "/images/publications/triboelectric-inertial-glove-overview.webp"
   image_alt: "Overview of the TI-Glove, continuous finger-bending sensing, inertial hand-orientation sensing, charge-retained circuit and interaction applications."
   image_width: 2050
