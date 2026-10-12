@@ -22,8 +22,12 @@ In `_config.yml`, set the top-level `title`, `name` and `description`.
 Under `author`, fill in `name`, `bio`, `employer`, `location`, `email`
 and any relevant academic profiles. Blank optional fields stay hidden.
 Upload a photo to `images/` and set `author.avatar` to its filename, such as
-`portrait.jpg`. Google Scholar, ORCID, PubMed, GitHub and Bluesky are currently
-hidden. To keep an optional field hidden, leave its YAML value empty (null),
+`portrait.jpg`. The current portrait is `images/bo-yang.jpg`.
+Google Scholar is displayed as a disabled placeholder while its URL is blank.
+Set `author.googlescholar` to your profile URL to enable the link, or set
+`author.googlescholar_show: false` to hide the placeholder.
+ORCID, PubMed, GitHub and Bluesky are currently hidden.
+To keep an optional field hidden, leave its YAML value empty (null),
 such as `github:`, rather than using a quoted empty string.
 
 Keep these hosting settings:
@@ -48,11 +52,21 @@ highlights Bo Yang in the author list. Replace these example values:
   display_date: "Jul. 2026"
   type: "Journal article"
   doi: "10.xxxx/REPLACE"
+  pdf: "/files/publications/paper.pdf"
+  image: "/images/publications/paper-overview.webp"
+  image_alt: "Description of the paper's system overview"
+  image_width: 1900
+  image_height: 2368
+  description: "A short introduction to the paper."
 ```
 
 Use the publication date precision you want readers to see in `display_date`.
-If desired, add `description` for a short summary, or `image` and `image_alt`
-for a figure you can share (for example `image: /images/paper-figure.png`).
+Upload the corresponding PDF and overview image to the paths above.
+The page shows each title with Publication and PDF links, followed by the
+overview image and three information rows: authors, venue/date and summary.
+DOI values are kept as data for the Publication links and are not printed.
+See `files/publications/README.md` for the archived article versions and
+figure extraction details.
 The homepage name in the header links back to About Me; only Publications
 appears as a separate navigation tab.
 
