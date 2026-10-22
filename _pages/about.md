@@ -25,7 +25,7 @@ My research focuses on **wearable sensing, intelligent motion understanding, and
 
 ## Honors & Awards
 
-- **2026.10** — Selected for the 2026 CAST Young Science and Technology Talent Development Program (Doctoral Student Track); Supporting Society: Chinese Society of Biomedical Engineering (入选2026年中国科协青年科技人才培育工程博士生专项计划；培育学会：中国生物医学工程学会)
+- **2026.10** — Selected for the 2026 CAST Young Science and Technology Talent Development Program (Doctoral Student Track) (2026年中国科协青年科技人才培育工程博士生专项计划)
 - **2026.08** — Future Scholar Scholarship, Tsinghua University (未来学者奖学金)
 - **2026.07** — Merit Student, Tsinghua University (清华大学三好学生)
 - **2026.06** — Outstanding Master's Thesis, Tsinghua University (优秀硕士学位论文)
