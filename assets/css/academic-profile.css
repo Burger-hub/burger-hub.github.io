@@ -104,6 +104,25 @@ html[data-theme="dark"] .archive .publication-title {
   margin-top: 2rem;
 }
 
+.honor-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3em;
+}
+
+.honor-date {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.honor-description {
+  min-width: 0;
+}
+
+.honor-translation {
+  display: block;
+}
+
 @media (max-width: 600px) {
   .publication-entry {
     margin-bottom: 1.25rem;
