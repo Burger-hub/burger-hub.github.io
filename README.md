@@ -77,8 +77,10 @@ Use the publication date precision you want readers to see in `display_date`.
 Upload the corresponding PDF and overview image to the paths above.
 Selected Publications shows the title with available Publication, PDF and Code
 links, then authors, venue/status and summary, followed by the overview image.
-All Publications uses compact citations with abbreviated given names, linked
-titles, journal, volume, issue, article number and year. Omit unavailable fields.
+All Publications uses Nature-inspired compact citations: surname and given-name
+initials, linked title, full journal name in italics, bold volume, article number
+and year in parentheses. Full author lists and confirmed author-role marks are
+retained for the personal website. Omit unavailable fields.
 For an unpublished manuscript use `type: "Manuscript"` and `status: "Under review"`;
 it can be selected, but is excluded from All Publications.
 DOI values are kept as data for the Publication links and are not printed.

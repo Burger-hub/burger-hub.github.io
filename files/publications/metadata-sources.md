@@ -7,8 +7,10 @@ work and is excluded from the published bibliography.
 All records are maintained in `_data/publications.yml`. `selected: true` enables
 the detailed entry; `type: Journal article` enables the published citation.
 The two views share the author list, title, DOI, and author-role fields. Citation
-authors use given-name initials, and Bo Yang's initials are bold. Full author
-lists are retained. `sort_key` orders citations within the bibliography and is
+authors use surname-first names with given-name initials, and Bo Yang's name
+(`Yang, B.`) is bold. Full journal names and author lists are retained; volume
+numbers are bold and the year is parenthesized, following a Nature-inspired
+website format. `sort_key` orders citations within the bibliography and is
 not a claim about the first online publication date.
 
 | Article | Publisher record | Bibliographic details |
