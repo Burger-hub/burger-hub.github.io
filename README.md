@@ -12,7 +12,7 @@ make changes, then choose **Commit changes** on the master branch.
 | Name, title, affiliation, email, photo and profile links | `_config.yml` |
 | Biography, research interests, education and honors | `_pages/about.md` |
 | Navigation links | `_data/navigation.yml` |
-| Publication entries | `_data/publications.yml` (newest first) |
+| Publication entries and selection | `_data/publications.yml` |
 | Photos and figures | `images/` |
 | CV and paper PDFs | `files/` |
 
@@ -42,9 +42,10 @@ repository: Burger-hub/burger-hub.github.io
 
 ### Add a publication
 
-Add a new entry at the top of `_data/publications.yml`. The Publications page
-renders the list automatically, numbers papers from newest to oldest and
-highlights Bo Yang in the author list. Replace these example values:
+Add a record in `_data/publications.yml`. Set `selected: true` to show a detailed
+representative work. Every `Journal article` also appears in All Publications,
+grouped by `year` and sorted by `sort_key` in descending order. Both views use
+the same record and highlight Bo Yang. Replace these example values:
 
 ```yaml
 - title: "Paper title"
@@ -54,6 +55,13 @@ highlights Bo Yang in the author list. Replace these example values:
   venue: "Journal or conference name"
   display_date: "Jul. 2026"
   type: "Journal article"
+  selected: true
+  year: 2026
+  sort_key: 202601
+  venue_abbr: "Journal abbreviation"
+  volume: "1"
+  issue: "2"
+  article_number: "123456"
   doi: "10.xxxx/REPLACE"
   equal_contributors: ["Bo Yang", "Other Author"]
   corresponding_authors: ["Other Author"]
@@ -67,13 +75,18 @@ highlights Bo Yang in the author list. Replace these example values:
 
 Use the publication date precision you want readers to see in `display_date`.
 Upload the corresponding PDF and overview image to the paths above.
-The page shows each title with Publication and PDF links, followed by the
-overview image and three information rows: authors, venue/date and summary.
+Selected Publications shows the title with available Publication, PDF and Code
+links, then authors, venue/status and summary, followed by the overview image.
+All Publications uses compact citations with abbreviated given names, linked
+titles, journal, volume, issue, article number and year. Omit unavailable fields.
+For an unpublished manuscript use `type: "Manuscript"` and `status: "Under review"`;
+it can be selected, but is excluded from All Publications.
 DOI values are kept as data for the Publication links and are not printed.
 Use exact author names in `equal_contributors` and `corresponding_authors`
-to display the co-first-author dagger and corresponding-author asterisk.
+to display the co-first-author `#` and corresponding-author `*`.
 See `files/publications/README.md` for the archived article versions and
-figure extraction details.
+figure extraction details. `files/publications/metadata-sources.md` records the
+complete bibliography's source checks and any unconfirmed author-role fields.
 The homepage name in the header links back to About Me; only Publications
 appears as a separate navigation tab.
 

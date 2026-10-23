@@ -1,4 +1,51 @@
 /* Publication list inspired by the typography and hierarchy of the reference. */
+.publication-section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.publication-section {
+  scroll-margin-top: 6rem;
+}
+
+.archive .publication-section-title {
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: 1.4em;
+}
+
+.publication-year {
+  margin: 1.6rem 0 0.8rem;
+  font-size: 1.1em;
+}
+
+.publication-citations {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1em;
+  line-height: 1.65;
+}
+
+.publication-citations .publication-citation {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.6em;
+  margin-bottom: 1rem;
+}
+
+.citation-body {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.citation-number {
+  font-variant-numeric: tabular-nums;
+}
+
 .publication-list {
   margin-top: 1.8rem;
 }

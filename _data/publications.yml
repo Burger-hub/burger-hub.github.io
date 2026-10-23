@@ -1,5 +1,5 @@
-# Manuscripts under review appear first, followed by published articles newest first.
-# Under-review manuscript metadata supplied by Bo Yang; published DOI metadata checked against Crossref on 2026-10-12.
+# One record per work; selected controls the detailed representative-work section.
+# Published bibliography metadata checked against the supplied Scholar list and publisher records.
 - title: "EdgeLLM-Glove: A Decoupled Perception–Cognition Framework for Continuous Sign-to-Text Interaction via Wearable Sensing"
   authors:
     - "Bo Yang"
@@ -12,6 +12,7 @@
     - "Zhou Li"
     - "Jia Cheng"
   status: "Under review"
+  selected: true
   type: "Manuscript"
   corresponding_authors: ["Zhou Li", "Jia Cheng"]
   description: "This work presents EdgeLLM-Glove, a wearable sign-to-text system based on a decoupled perception–cognition architecture. By integrating adaptive segmentation, lightweight gloss recognition, and local language reconstruction, the system enables real-time decoding and text conversion of continuous sign language signals without cloud processing, as demonstrated in end-to-end evaluations."
@@ -38,6 +39,13 @@
   display_date: "Jul. 2026"
   type: "Journal article"
   doi: "10.1002/adfm.76572"
+  selected: true
+  year: 2026
+  sort_key: 202601
+  venue_abbr: "Adv. Funct. Mater."
+  volume: "36"
+  issue: "55"
+  article_number: "e76572"
   equal_contributors: ["Haohan Zhao", "Xuecheng Qu", "Bo Yang"]
   corresponding_authors: ["Xuecheng Qu", "Yunxu Shi", "Jia Cheng"]
   pdf: "/files/publications/bidirectional-haptic-feedback.pdf"
@@ -64,6 +72,12 @@
   display_date: "2025"
   type: "Journal article"
   doi: "10.1016/j.nanoen.2024.110638"
+  selected: true
+  year: 2025
+  sort_key: 202504
+  venue_abbr: "Nano Energy"
+  volume: "135"
+  article_number: "110638"
   equal_contributors: ["Bo Yang", "Lifa Yang"]
   corresponding_authors: ["Chong Li", "Wei Li", "Xuecheng Qu", "Jia Cheng"]
   pdf: "/files/publications/sensory-rehabilitation-ring.pdf"
@@ -87,6 +101,13 @@
   display_date: "Jan. 2025"
   type: "Journal article"
   doi: "10.1002/advs.202408689"
+  selected: true
+  year: 2025
+  sort_key: 202503
+  venue_abbr: "Adv. Sci."
+  volume: "12"
+  issue: "3"
+  article_number: "2408689"
   equal_contributors: ["Bo Yang", "Jia Cheng", "Xuecheng Qu"]
   corresponding_authors: ["Jia Cheng"]
   pdf: "/files/publications/triboelectric-inertial-glove.pdf"
@@ -96,3 +117,99 @@
   image_width: 2050
   image_height: 1895
   description: "This work introduces a charge-retained sensing circuit that captures continuous finger movements from triboelectric signals and combines the signals with inertial sensing in a smart glove. The system supports robotic control, virtual-reality interaction, and sign-language recognition."
+
+- title: "A dual-mode event-triggered crack sensor based on a triboelectric-resistive hybrid mechanism for structural damage monitoring"
+  authors: ["Junyao Shen", "Jie Xu", "Bo Yang", "Jia Cheng"]
+  venue: "Chemical Engineering Journal"
+  venue_abbr: "Chem. Eng. J."
+  type: "Journal article"
+  year: 2026
+  sort_key: 202603
+  volume: "547"
+  article_number: "180782"
+  doi: "10.1016/j.cej.2026.180782"
+  selected: false
+
+- title: "Edge-AI-assisted handheld ultrasound for triaging blunt thoracoabdominal injuries"
+  authors:
+    - "Tiefeng Cheng"
+    - "Keyan Li"
+    - "Yifei Lyu"
+    - "Nong Gao"
+    - "Huizhong Mei"
+    - "Xuecheng Qu"
+    - "Bo Yang"
+    - "Quan Xu"
+    - "Zhiyong Bai"
+    - "Minghao Li"
+    - "Haoyu Qin"
+    - "Xiangrong Cheng"
+    - "Yiming Teng"
+    - "Baogeng Pan"
+    - "Jianfa Wang"
+    - "Shengzheng Wu"
+    - "Faqin Lv"
+    - "Jia Cheng"
+  venue: "Device"
+  venue_abbr: "Device"
+  type: "Journal article"
+  year: 2026
+  sort_key: 202602
+  article_number: "101247"
+  doi: "10.1016/j.device.2026.101247"
+  selected: false
+
+- title: "Closed-loop wearable neurostimulation system with triboelectric sensing to alleviate hemifacial spasms"
+  authors:
+    - "Xuecheng Qu"
+    - "Jiahao Wan"
+    - "Haohan Zhao"
+    - "Shunyuan Xu"
+    - "Xiangrong Cheng"
+    - "Bo Yang"
+    - "Zhibin Li"
+    - "Linhong Ji"
+    - "Jinting Wu"
+    - "Zhou Li"
+    - "Jia Cheng"
+    - "Chong Li"
+  venue: "Nature Communications"
+  venue_abbr: "Nat. Commun."
+  type: "Journal article"
+  year: 2025
+  sort_key: 202505
+  volume: "16"
+  issue: "1"
+  article_number: "11148"
+  doi: "10.1038/s41467-025-67121-9"
+  equal_contributors: ["Xuecheng Qu", "Jiahao Wan", "Haohan Zhao"]
+  corresponding_authors: ["Jinting Wu", "Zhou Li", "Jia Cheng", "Chong Li"]
+  selected: false
+
+- title: "A remote monitoring system for wind speed and direction based on non-contact triboelectric nanogenerator"
+  authors: ["Junyao Shen", "Ze Yang", "Yiyong Yang", "Bo Yang", "Yuning Song", "Xiangrong Cheng", "Zhemin Lai", "Haohan Zhao", "Linhong Ji", "Zhao Zhu", "Jia Cheng"]
+  venue: "Nano Energy"
+  venue_abbr: "Nano Energy"
+  type: "Journal article"
+  year: 2025
+  sort_key: 202502
+  volume: "133"
+  article_number: "110453"
+  doi: "10.1016/j.nanoen.2024.110453"
+  equal_contributors: ["Junyao Shen", "Ze Yang"]
+  corresponding_authors: ["Yiyong Yang", "Zhao Zhu", "Jia Cheng"]
+  selected: false
+
+- title: "Thin Film Electrostatic Adsorption Damper Based on Triboelectric High‐Voltage"
+  authors: ["Zhemin Lai", "Junyao Shen", "Haohan Zhao", "Yongkang Jiang", "Xiangrong Cheng", "Bo Yang", "Linhong Ji", "Ze Yang", "Jia Cheng"]
+  venue: "Advanced Functional Materials"
+  venue_abbr: "Adv. Funct. Mater."
+  type: "Journal article"
+  year: 2025
+  sort_key: 202501
+  volume: "35"
+  issue: "2"
+  article_number: "2412984"
+  doi: "10.1002/adfm.202412984"
+  corresponding_authors: ["Ze Yang", "Jia Cheng"]
+  selected: false

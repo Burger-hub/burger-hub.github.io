@@ -1,14 +1,24 @@
 ---
 layout: archive
-title: "Selected Publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
+{% assign selected_papers = site.data.publications | where: "selected", true %}
+{% assign published_papers = site.data.publications | where: "type", "Journal article" | sort: "sort_key" | reverse %}
+
+<nav class="publication-section-nav" aria-label="Publication sections">
+  <a href="#selected-publications">Selected Publications</a>
+  <a href="#all-publications">All Publications</a>
+</nav>
+
 <p class="publication-author-legend"><sup>#</sup> Co-first authors. <sup>*</sup> Corresponding authors.</p>
 
+<section id="selected-publications" class="publication-section" aria-labelledby="selected-publications-heading">
+<h2 id="selected-publications-heading" class="publication-section-title">Selected Publications</h2>
 <div class="publication-list">
-  {% for paper in site.data.publications %}
+  {% for paper in selected_papers %}
   <article class="publication-entry" aria-labelledby="publication-{{ forloop.index }}">
     <h2 class="publication-title" id="publication-{{ forloop.index }}">
       <span class="publication-number">[{{ forloop.rindex }}]</span>
@@ -25,7 +35,7 @@ author_profile: true
     </h2>
     <ul class="publication-details">
       {% if paper.authors %}
-      <li class="publication-authors">{% for author in paper.authors %}{% if author == site.author.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% if paper.equal_contributors contains author or paper.corresponding_authors contains author %}<sup class="publication-author-mark">{% if paper.equal_contributors contains author %}<span title="Co-first author">#</span>{% endif %}{% if paper.equal_contributors contains author and paper.corresponding_authors contains author %},{% endif %}{% if paper.corresponding_authors contains author %}<span title="Corresponding author">*</span>{% endif %}</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
+      <li class="publication-authors">{% include publication-authors.html paper=paper %}</li>
       {% endif %}
       <li class="publication-venue">{% if paper.status %}<strong><em>{{ paper.status | escape }}</em></strong>.{% else %}Published in <strong><em>{{ paper.venue | escape }}</em></strong>, {{ paper.display_date | escape }}.{% endif %}</li>
       {% if paper.description %}<li class="publication-summary">{{ paper.description | escape }}</li>{% endif %}
@@ -40,6 +50,23 @@ author_profile: true
   </article>
   {% endfor %}
 </div>
+</section>
 
+<section id="all-publications" class="publication-section" aria-labelledby="all-publications-heading">
+  <h2 id="all-publications-heading" class="publication-section-title">All Publications</h2>
+  {% assign year_groups = published_papers | group_by: "year" %}
+  {% assign reference_number = published_papers.size %}
+  {% for year_group in year_groups %}
+  <h3 class="publication-year">{{ year_group.name }}</h3>
+  <ol class="publication-citations" reversed start="{{ reference_number }}">
+    {% for paper in year_group.items %}
+    <li class="publication-citation" value="{{ reference_number }}">
+      <span class="citation-number" aria-hidden="true">[{{ reference_number }}]</span>
+      <span class="citation-body">{% include publication-citation.html paper=paper %}</span>
+    </li>
+    {% assign reference_number = reference_number | minus: 1 %}
+    {% endfor %}
+  </ol>
+  {% endfor %}
 
-
+</section>

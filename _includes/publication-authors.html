@@ -1,0 +1,14 @@
+{%- for author in include.paper.authors -%}
+  {%- capture label -%}
+    {%- if include.abbreviated -%}
+      {%- assign name_parts = author | split: ' ' -%}
+      {%- assign given_count = name_parts.size | minus: 1 -%}
+      {%- for part in name_parts limit:given_count -%}{{ part | slice: 0 }}{{ '. ' }}{%- endfor -%}{{ name_parts | last }}
+    {%- else -%}
+      {{- author -}}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- if author == site.author.name -%}<strong title="{{ author | escape }}">{{ label | escape }}</strong>{%- else -%}{{ label | escape }}{%- endif -%}
+  {%- if include.paper.equal_contributors contains author or include.paper.corresponding_authors contains author -%}<sup class="publication-author-mark">{%- if include.paper.equal_contributors contains author -%}<span title="Co-first author">#</span>{%- endif -%}{%- if include.paper.equal_contributors contains author and include.paper.corresponding_authors contains author -%},{%- endif -%}{%- if include.paper.corresponding_authors contains author -%}<span title="Corresponding author">*</span>{%- endif -%}</sup>{%- endif -%}
+  {%- unless forloop.last -%}{%- if include.abbreviated and forloop.rindex == 2 -%}{{ ', and ' }}{%- else -%}{{ ', ' }}{%- endif -%}{%- endunless -%}
+{%- endfor -%}
